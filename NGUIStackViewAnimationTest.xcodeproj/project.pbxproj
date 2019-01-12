@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		A17C2A8F21E6571F007CD711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C2A8E21E6571F007CD711 /* AppDelegate.swift */; };
 		A17C2A9121E6571F007CD711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C2A9021E6571F007CD711 /* ViewController.swift */; };
-		A17C2A9421E6571F007CD711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17C2A9221E6571F007CD711 /* Main.storyboard */; };
 		A17C2A9621E65722007CD711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17C2A9521E65722007CD711 /* Assets.xcassets */; };
 		A17C2A9921E65722007CD711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17C2A9721E65722007CD711 /* LaunchScreen.storyboard */; };
+		A17C2AA121E657F9007CD711 /* Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C2AA021E657F9007CD711 /* Autolayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A17C2A8B21E6571F007CD711 /* NGUIStackViewAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGUIStackViewAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17C2A8E21E6571F007CD711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17C2A9021E6571F007CD711 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A17C2A9321E6571F007CD711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A17C2A9521E65722007CD711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17C2A9821E65722007CD711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A17C2A9A21E65722007CD711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17C2AA021E657F9007CD711 /* Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autolayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			children = (
 				A17C2A8E21E6571F007CD711 /* AppDelegate.swift */,
 				A17C2A9021E6571F007CD711 /* ViewController.swift */,
-				A17C2A9221E6571F007CD711 /* Main.storyboard */,
 				A17C2A9521E65722007CD711 /* Assets.xcassets */,
 				A17C2A9721E65722007CD711 /* LaunchScreen.storyboard */,
 				A17C2A9A21E65722007CD711 /* Info.plist */,
+				A17C2AA021E657F9007CD711 /* Autolayout.swift */,
 			);
 			path = NGUIStackViewAnimationTest;
 			sourceTree = "<group>";
@@ -124,7 +124,6 @@
 			files = (
 				A17C2A9921E65722007CD711 /* LaunchScreen.storyboard in Resources */,
 				A17C2A9621E65722007CD711 /* Assets.xcassets in Resources */,
-				A17C2A9421E6571F007CD711 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,20 +136,13 @@
 			files = (
 				A17C2A9121E6571F007CD711 /* ViewController.swift in Sources */,
 				A17C2A8F21E6571F007CD711 /* AppDelegate.swift in Sources */,
+				A17C2AA121E657F9007CD711 /* Autolayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A17C2A9221E6571F007CD711 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A17C2A9321E6571F007CD711 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A17C2A9721E65722007CD711 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
